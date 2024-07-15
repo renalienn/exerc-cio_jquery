@@ -33,7 +33,6 @@ body {
     padding: 0px 20px;
     font-size: 16px;
     color: #cececd;
-    /* NEUMORFISM  */
     box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
                 6px 6px 10px rgb(10, 8, 10, 0.8),
                 inset -6px -6px 10px rgb(255, 255, 255, 0.05),
@@ -81,7 +80,6 @@ body {
     cursor: pointer;
 }
 
-/* Checkbox Unchecked */
 .left-cont label:before {
     content: '';
     padding: 11px;
@@ -96,7 +94,6 @@ body {
     background: #cececd;
 }
 
-/* Checkbox Checked */
 .left-cont input:checked + label:after{
     content: '';
     position: absolute;
@@ -110,13 +107,11 @@ body {
     transform: rotate(45deg);
 }
 
-/* Texto riscado e cor mais clara quando marcado como concluído */
 .left-cont input:checked ~ span {
     color: #000;
     text-decoration: line-through;
 }
 
-/* Remove Innactived */
 .remove {
     color: #000;
     cursor: pointer;
@@ -124,7 +119,8 @@ body {
     transform: translateY(48px);
     transition: .5s;
 }
-/* Removed Actived */
+
+
 .remove.active {
     transform: translateY(0px);
     transition: .5s;
